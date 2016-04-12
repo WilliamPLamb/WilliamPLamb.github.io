@@ -1,0 +1,123 @@
+body {
+	background-color: #c0c0c0;
+	/*background-color: white;*/
+	/*background-image: url("background.jpg");*/
+	background-size:100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font: helvetica;
+}
+
+#menu {
+	border-radius: 50px 50px 0px 0px;
+	background-color: black;
+	font-color: white;
+	white-space: nowrap;
+	text-align: center;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	text-decoration: none;
+	float: top;
+}
+
+#updates-left {
+	border-radius: 0px 0px 0px 50px;
+	float: left;
+	background-color: red;
+	text-align: left;
+	color: #66ff33;
+	width: 20%;
+	height:400px;
+}
+
+#updates-text {
+	float: top;
+	padding-left: 10px;
+}
+
+#updates-right {
+	border-radius: 0px 0px 50px 0px;
+	float: right;
+	background-color: blue;
+	text-align: left;
+	width: 20%;
+	height:400px;
+	color:#FFA500;
+}
+
+#main {
+	float:left;
+	background-color:white;
+	text-align:left;
+	width:60%;
+	height:400px;
+}
+
+#footer {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color:black;
+	text-align:right;
+	text-indent:10px;
+	width:100%;
+	color:white;
+}
+
+.gallery {
+	/*-webkit-user-select: none;
+	-khtml-user-drag: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+  	user-select: none;*/
+   	float:left;
+	width:100px;
+	height:100px;
+	padding: 4px;
+}
+
+#menu a:link,
+#menu a:visited {
+	border-radius: 10px;
+	color: #00ff00;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #0000ff;
+	/*background-image: url("US_Flag.gif");*/
+}
+/*
+#main a:link,
+#main a:visited{
+	border-radius: 0px;
+	color: #00e;;
+	text-decoration: none;
+	width: 0px;
+	text-align: center;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: white;
+}
+#main a:hover{
+	text-decoration: underline;
+}
+*/
+#menu a:active,
+#menu a:visited:active,
+#menu a:hover {
+	text-decoration: underline;
+	color: #ff0000;
+	width: 75px;
+	/*background-image: url("US_Flag.gif");*/
+}
